@@ -9,6 +9,7 @@ body{
     width: 100%;
     background-color: white;
     
+    
 }
 .influencer{
    display: grid;
@@ -17,9 +18,8 @@ body{
    align-items: center;
 }
 .image{
-    width: 200px;
-    height: 200px;
-    margin-right: 10px;
+    margin-bottom: 20px;
+   
 
 }
 .para{
@@ -35,3 +35,13 @@ align-items: center;
     padding: 10px;
 
 }
+/* second part */
+.product{
+    width: 300px;
+    padding: 10px;
+    background-color: wheat;
+}
+   .details{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+   } 

@@ -4,7 +4,34 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.container{
+    width: 100%;
+    background-color: white;
+    
+}
 .influencer{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
+   grid-column-gap: 50px;
+   align-items: center;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+
+}
+.para{
+margin-left: 20px;
+align-items: center;
+}
+.para button{
+    size: 200px;
+    color: white;
+    background-color: deeppink;
+    border: 1px solid deeppink;
+    border-radius: 30px;
+    padding: 10px;
+
 }

@@ -45,3 +45,22 @@ align-items: center;
        display: grid;
        grid-template-columns: repeat(3, 1fr);
    } 
+footer{
+    background-color: rgb(12, 12, 70);
+    color: white;
+    text-align: center;
+   
+}
+/* Media Queries */
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .top-influencer{
+        width: 100%;
+    }
+    .influencer{
+        background-color: darkgoldenrod;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
+    
+}
